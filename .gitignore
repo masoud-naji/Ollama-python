@@ -1,0 +1,30 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore IDE specific files (e.g., for VS Code)
+.vscode/
+.idea/
+*.swp
+
+# Ignore ollama's models cache (if applicable)
+.ollama/models/
+
+# Ignore Pipenv files (if you're using Pipenv)
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
